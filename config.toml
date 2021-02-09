@@ -40,14 +40,6 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
-  [[menu.main]]
-    identifier = "about"
-	  pre = ""
-    post = ""
-    name = "关于"
-    url = "/about/"
-	  title = ""
-    weight = 4
 
 [params]
   #  LoveIt 主题版本
