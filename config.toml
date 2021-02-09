@@ -192,7 +192,7 @@ theme = "LoveIt"
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "https://github.com/neymar-jr"
+    GitHub = "neymar-jr"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -235,7 +235,7 @@ theme = "LoveIt"
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = "https://www.zhihu.com/people/chen-chen-71-27-71"
+    Zhihu = "chen-chen-71-27-71"
     Douban = ""
     Angellist = ""
     Slidershare = ""
