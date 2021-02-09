@@ -1,12 +1,12 @@
 baseURL = "https://neymar-jr.github.io"
 # [en, zh-cn, fr, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "en"
 # 网站语言, 仅在这里 CN 大写
-languageCode = "zh-CN"
+languageCode = "en"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "刘宣辰的博客"
+title = "Xuanchen's Blog"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -108,7 +108,7 @@ theme = "LoveIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = ""
+      name = "Xuanchen's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -120,7 +120,7 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     #  自定义内容 (支持 HTML 格式)
-    custom = ''
+    custom = '加油'
     #  是否显示 Hugo 和主题信息
     hugo = true
     #  是否显示版权信息
@@ -128,7 +128,7 @@ theme = "LoveIt"
     #  是否显示作者
     author = true
     # 网站创立年份
-    since = 2019
+    since = 2020
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # 许可协议信息 (支持 HTML 格式)
@@ -162,7 +162,7 @@ theme = "LoveIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = "908815829@qq.com"
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      avatarURL = "images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "刘宣辰的博客"
       # 主页显示的网站副标题
