@@ -47,7 +47,7 @@ theme = "LoveIt"
   # 网站描述
   description = "刘宣辰的博客"
   # 网站关键词
-  keywords = ["Theme", "Hugo"]
+  keywords = ["CS", "Machine Learning", "Deep Learning"]
   # 网站默认主题样式 ("light", "dark", "auto")
   defaultTheme = "auto"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
@@ -58,7 +58,7 @@ theme = "LoveIt"
   #  日期格式
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["logo.png"]
 
   #  应用图标配置
   [params.app]
@@ -106,7 +106,7 @@ theme = "LoveIt"
     #  页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
-      logo = ""
+      logo = "logo.png"
       # 标题名称
       name = "Xuanchen's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -168,7 +168,7 @@ theme = "LoveIt"
       # 主页显示的网站副标题
       subtitle = "记录自己的学习历程"
       # 是否为副标题显示打字机动画
-      typeit = true
+      typeit = false
       # 是否显示社交账号
       social = true
       #  免责声明 (支持 HTML 格式)
@@ -314,11 +314,11 @@ theme = "LoveIt"
       fullscreen = true
     #  文章页面的分享信息设置
     [params.page.share]
-      enable = true
-      Twitter = true
-      Facebook = true
+      enable = false
+      Twitter = false
+      Facebook = false
       Linkedin = false
-      Whatsapp = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -334,11 +334,11 @@ theme = "LoveIt"
       Flipboard = false
       Weibo = true
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
-      Evernote = true
+      Evernote = false
       Skype = false
       Trello = false
       Mix = false
@@ -424,11 +424,11 @@ theme = "LoveIt"
     #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
-      images = []
+      images = ["logo.png"]
       # 出版者信息
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "liuxuanchen"
+        logoUrl = "logo.png"
 
   #  TypeIt 配置
   [params.typeit]
@@ -452,7 +452,7 @@ theme = "LoveIt"
   #  网站 SEO 配置
   [params.seo]
     # 图片 URL
-    image = ""
+    image = "logo.png"
     # 缩略图 URL
     thumbnailUrl = ""
 
