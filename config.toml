@@ -162,7 +162,7 @@ theme = "LoveIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = "908815829@qq.com"
       # 主页显示头像的 URL
-      avatarURL = "avatar.png"
+      avatarURL = "/static/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "刘宣辰的博客"
       # 主页显示的网站副标题
