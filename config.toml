@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "刘宣辰的博客"
+title = "Blog"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -42,11 +42,11 @@ theme = "LoveIt"
     weight = 3
   [[menu.main]]
     identifier = "about"
-	pre = ""
+	  pre = ""
     post = ""
     name = "关于"
     url = "/about/"
-	title = ""
+	  title = ""
     weight = 4
 
 [params]
@@ -172,9 +172,9 @@ theme = "LoveIt"
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "刘宣辰的博客"
       # 主页显示的网站副标题
-      subtitle = "这是我的全新 Hugo 网站"
+      subtitle = "记录自己的学习历程"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
