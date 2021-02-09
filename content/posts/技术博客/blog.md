@@ -1,8 +1,8 @@
 ---
-title: "blog"
-date: 2021-02-09T17:40:09+08:00
+title: "Blog"
+date: 2021-02-10T00:36:27+08:00
 tags: [CS]
 categories: [技术博客]
 ---
 
-hello world!
+第一个博客
