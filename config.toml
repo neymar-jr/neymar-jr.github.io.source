@@ -24,6 +24,7 @@ theme = "LoveIt"
     # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
     title = ""
     weight = 1
+
   [[menu.main]]
     identifier = "tags"
     pre = ""
@@ -32,6 +33,7 @@ theme = "LoveIt"
     url = "/tags/"
     title = ""
     weight = 2
+    
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -40,6 +42,7 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
+
     [[menu.main]]
     identifier = "about"
     pre = ""
@@ -66,7 +69,7 @@ theme = "LoveIt"
   #  日期格式
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["logo.png"]
+  images = [""]
 
   #  应用图标配置
   [params.app]
@@ -432,11 +435,11 @@ theme = "LoveIt"
     #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
-      images = ["logo.png"]
+      images = [""]
       # 出版者信息
       [params.page.seo.publisher]
         name = "liuxuanchen"
-        logoUrl = "logo.png"
+        logoUrl = ""
 
   #  TypeIt 配置
   [params.typeit]

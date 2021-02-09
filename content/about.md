@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2021-02-10T00:43:38+08:00
-music: true
 ---
 
 ## 关于网站
