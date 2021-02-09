@@ -452,9 +452,9 @@ theme = "LoveIt"
   #  网站 SEO 配置
   [params.seo]
     # 图片 URL
-    image = "logo.png"
+    image = ""
     # 缩略图 URL
-    thumbnailUrl = "favicon.ico"
+    thumbnailUrl = ""
 
   #  网站分析配置
   [params.analytics]
