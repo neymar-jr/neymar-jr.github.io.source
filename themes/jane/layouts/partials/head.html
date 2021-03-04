@@ -106,3 +106,7 @@
 
 <!-- Custom head -->
 {{ partial "custom_head.html" . }}
+
+{{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+{{ end }}
