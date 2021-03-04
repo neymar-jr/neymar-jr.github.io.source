@@ -21,10 +21,10 @@ PygmentsCodefencesGuessSyntax = true
 PygmentsOptions = "linenos=table"
 
 # Enable author pages
-#[taxonomies]
-#  author = "author"
-#  tag = "tags"
-#  category = "categories"
+[taxonomies]
+  author = "author"
+  tag = "tags"
+  category = "categories"
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "en"           # Default language to use
@@ -48,7 +48,7 @@ defaultContentLanguage = "en"           # Default language to use
   name = "Archives"
   weight = 20
   identifier = "archives"
-  url = "/post/"
+  url = "/posts/"
 [[menu.main]]
   name = "Tags"
   weight = 30
@@ -67,7 +67,7 @@ defaultContentLanguage = "en"           # Default language to use
 [[menu.main]]
   name = "external-link"
   weight = 60
-  url = "https://gohugo.io"
+  url = "https://github.com/neymar-jr"
 
 
 [params]
