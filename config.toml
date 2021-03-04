@@ -28,8 +28,8 @@ PygmentsOptions = "linenos=table"
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "zh-cn"           # Default language to use
-[languages.en]
-  languageCode = "zh-CN"
+[Languages.zh-cn]
+  languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
   name = "刘宣辰"
@@ -40,27 +40,27 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
+  name = "主页"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Archives"
+  name = "全部文章"
   weight = 20
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   weight = 30
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "分类"
   weight = 40
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "About"
+  name = "关于"
   weight = 50
   identifier = "about"
   url = "/about/"
@@ -79,7 +79,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   description = "记录自己的学习历程"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archive-paginate = 20
+  archive-paginate = 50
 
   # paginate style, default use numbered pagination links
   # if true, use original "Previous" and "Next" links.
@@ -104,8 +104,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
   mathjax = false          # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
   katex = true           # see https://github.com/KaTeX/KaTeX
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-
+  # contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  contentCopyright = '原创文章，如需转载请注明文章作者和出处。谢谢！'
+  
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
   tencent_analytics = ""    # Tencent Analytics
