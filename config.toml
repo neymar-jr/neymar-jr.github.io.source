@@ -47,7 +47,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 [[menu.main]]
   name = "Posts"
   weight = 20
-  identifier = "archives"
+  identifier = "posts"
   url = "/post/"
 [[menu.main]]
   name = "Tags"
