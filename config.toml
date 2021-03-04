@@ -137,7 +137,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true
-    repo = "neymar-jr/neymar-jr.github.io.comments"    # The repo to store comments
+    repo = "neymar-jr/neymar-jr.github.io.comment"    # The repo to store comments
     issueTerm = "pathname"
 
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
@@ -189,7 +189,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     showCommitMessage = true
 
   [params.social]                                         # 社交链接
-    a-email = "908815829@qq.com"
+    a-email = ""
     b-stack-overflow = ""
     c-twitter = ""
     d-facebook = ""
