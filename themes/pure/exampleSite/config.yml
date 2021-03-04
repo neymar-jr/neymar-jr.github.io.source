@@ -2,12 +2,12 @@ baseURL: https://neymar-jr.github.io
 theme: pure
 title: 刘宣辰的博客
 copyright: CC BY 4.0 CN
-defaultContentLanguage: en  # en/zh/...
-footnoteReturnLinkContents: ↩
+defaultContentLanguage: zh  # en/zh/...
+footnoteReturnLinkContents: true
 hasCJKLanguage: true
 paginate: 7
 enableEmoji: true
-PygmentsCodeFences: false
+PygmentsCodeFences: true
 googleAnalytics: ""      # UA-XXXXXXXX-X 
 permalinks:
   posts: /:year/:month/:filename/
@@ -108,12 +108,11 @@ params:
     # Social Links
     social:
       links:
+        zhihu: https://www.zhihu.com/people/chen-chen-71-27-71
         github: https://github.com/neymar-jr
         # weibo: http://weibo.com/{yourid}
-        # twitter: https://twitter.com/
-        # facebook: /
-        rss: /index.xml
-      link_tooltip: false # enable the social link tooltip, options: true, false
+        # rss: /index.xml
+      link_tooltip: true # enable the social link tooltip, options: true, false
   # Site
   site:
     logo:
@@ -121,16 +120,16 @@ params:
       width: 40
       height: 40
       url: favicon.ico
-    title: Hugo # 页面title
+    title: # 页面title
     favicon: favicon.ico
-    board: <p>消极是为了走更远的路</p> # 公告牌
+    board: <p>消极，是为了走更长的路</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
   share:
-    enable: false # 是否启用分享
-    sites: weibo,qq,wechat,facebook,twitter # PC端显示的分享图标
-    mobile_sites: weibo,qq,qzone # 移动端显示的分享图标
+    enable: true # 是否启用分享
+    sites: wechat # PC端显示的分享图标
+    mobile_sites: qq, wechat # 移动端显示的分享图标
 
   # Comment
   comment:
