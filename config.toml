@@ -8,9 +8,6 @@ hasCJKLanguage = true
 
 # 主题
 theme = "LoveIt"
-# themes directory
-# 主题目录
-themesDir = "../.."
 # 网站标题
 title = "Xuanchen's Blog"
 
