@@ -1,4 +1,5 @@
 baseURL = "https://neymar-jr.github.io"
+defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
 languageCode = "zh-CN"
 # 语言名称
