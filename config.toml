@@ -146,7 +146,7 @@ paginate = 12
     #  自定义内容 (支持 HTML 格式)
     custom = ''
     #  是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     #  是否显示版权信息
     copyright = true
     #  是否显示作者
@@ -201,7 +201,7 @@ paginate = 12
     [params.home.posts]
       enable = true
       # 主页每页显示文章数量
-      paginate = 6
+      paginate = 12
       #  被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
