@@ -6,7 +6,7 @@ author: "ChrisLiu"
 description: "自卑与超越"
 
 page:
-    theme: "wide"
+    theme: "full"
 
 tags: [思考]
 categories: [2021思考]
