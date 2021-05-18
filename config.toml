@@ -151,13 +151,13 @@ enableEmoji = true
       [languages.en.params.social]
         GitHub = "neymar-jr"
         Linkedin = ""
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
         Medium = ""
         Gitlab = ""
-        Youtubelegacy = "xxxx"
+        Youtubelegacy = ""
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
@@ -212,13 +212,10 @@ enableEmoji = true
         Bilibili = ""
         Email = "908815829@qq.com"
         DockerHub = ""
-        Discord = "xxxxxxxxx"
+        Discord = ""
         Leanpub = ""
         Udemy = ""
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
 
 [params]
   # uBlogger theme version
@@ -294,7 +291,7 @@ enableEmoji = true
   [params.section]
     # special amount of posts in each section page
     # section 页面每页显示文章数量
-    paginate = 20
+    paginate = 6
     # date format (month and day)
     # 日期格式 (月和日)
     dateFormat = "01-02"
@@ -560,10 +557,10 @@ enableEmoji = true
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/images/Apple-Devices-Preview.png"
+    image = ""
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = ""
 
   # Analytics config
   # 网站分析配置
