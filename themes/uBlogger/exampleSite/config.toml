@@ -1,17 +1,17 @@
-baseURL = "https://neymar-jr.github.io"
+baseURL = "https://ublogger.netlify.app/"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "en"
 # theme
 # 主题
 theme = "uBlogger"
 # themes directory
 # 主题目录
-# themesDir = "../.."
+themesDir = "../.."
 
 # website title
 # 网站标题
-title = "Xuanchen's Blog"
+title = "uBlogger"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -66,26 +66,34 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.en.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Docs"
+        url = "/categories/documentation/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
         name = "About"
         url = "/about/"
         title = ""
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/neymar-jr"
+        url = "https://github.com/upagge/ublogger"
         title = "GitHub"
-        weight = 5
+        weight = 6
     [languages.en.params]
       # site description
-      description = "刘宣辰的博客"
+      description = "About uBlogger Theme"
       # site keywords
-      keywords = ["CS", "Machine Learning", "Deep Learning"]
+      keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -100,12 +108,11 @@ enableEmoji = true
         iconColor = "#5bbad5"
         # Windows v8-10 tile color
         tileColor = "#da532c"
-		
       # Search config
       [languages.en.params.search]
         enable = true
         # type of search engine ("lunr", "algolia")
-        type = "lunr"
+        type = "algolia"
         # max index length of the chunked content
         contentLength = 4000
         # placeholder of the search bar
@@ -122,22 +129,21 @@ enableEmoji = true
           index = "index.en"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-		  
-	  # 主页配置
-	  [params.home]
+      # Home page config
+      [languages.en.params.home]
         # amount of RSS pages
         rss = 10
         # Home page profile
         [languages.en.params.home.profile]
           enable = true
           # Gravatar Email for preferred avatar in home page
-          gravatarEmail = "908815829@qq.com"
+          gravatarEmail = ""
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
-          title = "刘宣辰的博客"
+          title = "uBlogger | Hugo Theme"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "记录自己的学习历程"
+          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -146,10 +152,10 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 25
+          paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "neymar-jr"
+        GitHub = "xxxx"
         Linkedin = ""
         Twitter = "xxxx"
         Instagram = "xxxx"
@@ -192,7 +198,7 @@ enableEmoji = true
         Strava = ""
         Skype = ""
         Whatsapp = ""
-        Zhihu = "chen-chen-71-27-71"
+        Zhihu = ""
         Douban = ""
         Angellist = ""
         Slidershare = ""
@@ -210,7 +216,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "908815829@qq.com"
+        Email = "xxxx@xxxx.com"
         DockerHub = ""
         Discord = "xxxxxxxxx"
         Leanpub = ""
@@ -227,7 +233,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = ""
+  gitRepo = "https://github.com/upagge/dolboblog-theme"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -236,7 +242,7 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = [""]
+  images = ["/logo.png"]
 
   # Header config
   # 页面头部导航栏配置
@@ -255,7 +261,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "Xuanchen's Blog"
+      name = "uBlogger"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
@@ -281,7 +287,7 @@ enableEmoji = true
     author = true
     # site creation time
     # 网站创立年份
-    since = 2021
+    since = 2019
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -392,9 +398,9 @@ enableEmoji = true
     # Utterances comment config (https://utteranc.es/)
     # Utterances comment 评论系统设置 (https://utteranc.es/)
     [params.comment.utterances]
-      enable = true
+      enable = false
       # owner/repo
-      repo = "neymar-jr/neymar-jr.github.io.comment"
+      repo = ""
       issueTerm = "pathname"
       label = ""
       lightTheme = "github-light"
@@ -493,24 +499,24 @@ enableEmoji = true
     # 文章页面的分享信息设置
     [params.page.share]
       enable = true
-      Twitter = false
-      Facebook = false
+      Twitter = true
+      Facebook = true
       Linkedin = false
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = false
+      HackerNews = true
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = false
+      Line = true
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = false
+      Weibo = true
       Renren = false
       Myspace = false
       Blogger = false
@@ -660,7 +666,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "刘宣辰"
+  name = "upagge.en"
 
 # Sitemap config
 # 网站地图配置

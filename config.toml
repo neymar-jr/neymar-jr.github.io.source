@@ -33,7 +33,7 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 20
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -291,7 +291,7 @@ enableEmoji = true
   [params.section]
     # special amount of posts in each section page
     # section 页面每页显示文章数量
-    paginate = 6
+    paginate = 20
     # date format (month and day)
     # 日期格式 (月和日)
     dateFormat = "01-02"
