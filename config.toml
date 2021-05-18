@@ -11,7 +11,7 @@ theme = "uBlogger"
 
 # website title
 # 网站标题
-title = "路漫漫其修远兮 吾将上下而求索"
+title = "求索"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -137,7 +137,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "刘宣辰的博客"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "记录自己的学习历程"
+          subtitle = "路漫漫其修远兮 吾将上下而求索"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
