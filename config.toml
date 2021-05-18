@@ -11,7 +11,7 @@ theme = "uBlogger"
 
 # website title
 # 网站标题
-title = "Xuanchen's Blog"
+title = "求索"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -146,7 +146,7 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 25
+          paginate = 6
       # Social config in home page
       [languages.en.params.social]
         GitHub = "neymar-jr"
@@ -252,7 +252,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "Xuanchen's Blog"
+      name = "求索"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='fas fa-pencil-alt fa-fw'></i>"
