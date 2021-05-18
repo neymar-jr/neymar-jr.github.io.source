@@ -3,20 +3,21 @@ name: Deploy Hugo Site to Github Pages on Master Branch
 on:
   push:
     branches:
-      - master
+      - master # 只在master上push触发部署
+    paths-ignore: # 下列文件的变更不触发部署，可以自行添加
+      - README.md
+      - LICENSE
 
-jobs:
+jobs: 
   build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1  # v2 does not have submodules option now
-       # with:
-       #   submodules: true
+    runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
+    steps: # 自动化步骤
+      - uses: actions/checkout@v2  # 第一步，下载代码仓库
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.80.0'
+          hugo-version: 'latest'
           # extended: true
 
       - name: Build
