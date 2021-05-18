@@ -113,7 +113,7 @@ enableEmoji = true
         # max number of results length
         maxResultLength = 10
         # snippet length of the result
-        snippetLength = 30
+        snippetLength = 50
         # HTML tag name of the highlight part in results
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
@@ -317,7 +317,7 @@ enableEmoji = true
   [params.comment]
     enable = true
     [params.comment.remark42]
-      enable = true
+      enable = false
       host = "https://comments.upagge.ru"
       site = "documentation"
       locale = "en"
@@ -540,7 +540,7 @@ enableEmoji = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "刘宣辰"
         logoUrl = "/images/avatar.png"
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
