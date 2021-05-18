@@ -11,8 +11,6 @@ page:
 tags: [思考]
 categories: [2021思考]
 
-hiddenFeaturedImage: false
-
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
