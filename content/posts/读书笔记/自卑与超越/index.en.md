@@ -13,9 +13,9 @@ categories: [2021思考]
 
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "1.jpg"
 - name: "featured-image-preview"
-  src: "featured-image.jpg"
+  src: "1.jpg"
 ---
 
 ​	<!--more-->
