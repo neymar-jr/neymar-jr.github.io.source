@@ -110,7 +110,7 @@ enableEmoji = true
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
-        [languages.en.params.search.algolia]
+        [languages.zh-cn.params.search.algolia]
           index = ""
           appID = ""
           searchKey = ""
