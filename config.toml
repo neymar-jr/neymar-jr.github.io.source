@@ -121,9 +121,9 @@ enableEmoji = true
         rss = 10
         # Home page profile
         [languages.en.params.home.profile]
-          enable = false
+          enable = true
           # Gravatar Email for preferred avatar in home page
-          gravatarEmail = "908815829@qq.com"
+          gravatarEmail = ""
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
