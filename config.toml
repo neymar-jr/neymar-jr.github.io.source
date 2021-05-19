@@ -184,7 +184,7 @@ enableEmoji = true
         Strava = ""
         Skype = ""
         Whatsapp = ""
-        Zhihu = ""
+        Zhihu = "people/chen-chen-71-27-71"
         Douban = ""
         Angellist = ""
         Slidershare = ""
@@ -391,6 +391,7 @@ enableEmoji = true
   # Page config
   # 文章页面配置
   [params.page]
+	theme = "classic"
     # whether to hide a page from home page
     # 是否在主页隐藏一篇文章
     hiddenFromHomePage = false
