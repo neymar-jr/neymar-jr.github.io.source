@@ -73,14 +73,6 @@ enableEmoji = true
         url = "/about/"
         title = ""
         weight = 4
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/neymar-jr"
-        title = "GitHub"
-        weight = 5
     [languages.en.params]
       # site description
       description = "刘宣辰的博客"
@@ -129,7 +121,7 @@ enableEmoji = true
         rss = 10
         # Home page profile
         [languages.en.params.home.profile]
-          enable = true
+          enable = false
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "908815829@qq.com"
           # URL of avatar shown in home page
