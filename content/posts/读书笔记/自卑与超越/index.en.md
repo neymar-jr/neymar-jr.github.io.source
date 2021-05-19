@@ -5,20 +5,17 @@ date: 2021-05-18T20:43:25+08:00
 author: "ChrisLiu"
 description: "自卑与超越"
 
-page:
-    theme: "full"
-
 tags: [思考]
 categories: [2021思考]
 
 resources:
-- name: "featured-image"
-  src: "1.jpg"
 - name: "featured-image-preview"
   src: "1.jpg"
+- name: "featured-image"
+  src: "2.jpg"
 ---
 
-​	<!--more-->
+​		<!--more-->
 
-​	最近开始重读自卑与超越，想想最开始是大一与这本书结缘的，当时觉得看书思考第一重要，学业技术这些其次，还是观点偏激惹的祸，对一些事非黑即白的看法是不妥当的。希望重读过程愉快，有新的收获。
+​		最近开始重读自卑与超越，想想最开始是大一与这本书结缘的，当时觉得看书思考第一重要，学业技术这些其次，还是观点偏激惹的祸，对一些事非黑即白的看法是不妥当的。希望重读过程愉快，有新的收获。
 
