@@ -1,7 +1,7 @@
 baseURL = "https://neymar-jr.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # theme
 # 主题
 theme = "uBlogger"
@@ -24,8 +24,193 @@ enableGitInfo = true
 enableEmoji = true
 
 [languages]
-  [languages.en]
+  [languages.zh-cn]
     weight = 1
+    # language code
+    languageCode = "zh-CN"
+    # language name
+    languageName = "简体中文"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    # default amount of posts in each pages
+    paginate = 20
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "文章"
+        url = "/posts/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "标签"
+        url = "/tags/"
+        title = ""
+        weight = 2
+      [[languages.zh-cn.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.zh-cn.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 4
+    [languages.zh-cn.params]
+      # site description
+      description = "刘宣辰的博客"
+      # site keywords
+      keywords = ["计算机科学与技术", "机器学习", "深度学习"]
+      # App icon config
+      [languages.zh-cn.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "求索"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+		
+      # Search config
+      [languages.zh-cn.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "lunr"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = ""
+          appID = ""
+          searchKey = ""
+		  
+	  # 主页配置
+	  [params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/avatar.png"
+          # title shown in home page (HTML format is supported)
+          title = "刘宣辰的博客"
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "路漫漫其修远兮 吾将上下而求索"
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.zh-cn.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.zh-cn.params.social]
+        GitHub = "neymar-jr"
+        Linkedin = ""
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = ""
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = ""
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = "chen-chen-71-27-71"
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "908815829@qq.com"
+        DockerHub = ""
+        Discord = ""
+        Leanpub = ""
+        Udemy = ""
+        RSS = true
+
+  [languages.en]
+    weight = 2
     # language code
     languageCode = "en"
     # language name
@@ -75,13 +260,13 @@ enableEmoji = true
         weight = 4
     [languages.en.params]
       # site description
-      description = "刘宣辰的博客"
+      description = "Chris Liu's blog"
       # site keywords
       keywords = ["CS", "Machine Learning", "Deep Learning"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "uBlogger"
+        title = "求索"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -105,15 +290,15 @@ enableEmoji = true
         # max number of results length
         maxResultLength = 10
         # snippet length of the result
-        snippetLength = 50
+        snippetLength = 30
         # HTML tag name of the highlight part in results
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          index = ""
+          appID = ""
+          searchKey = ""
 		  
 	  # 主页配置
 	  [params.home]
@@ -127,9 +312,9 @@ enableEmoji = true
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
-          title = "刘宣辰的博客"
+          title = "Chris Liu's blog"
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "路漫漫其修远兮 吾将上下而求索"
+          subtitle = "Keep thinking"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -184,7 +369,7 @@ enableEmoji = true
         Strava = ""
         Skype = ""
         Whatsapp = ""
-        Zhihu = "people/chen-chen-71-27-71"
+        Zhihu = "chen-chen-71-27-71"
         Douban = ""
         Angellist = ""
         Slidershare = ""
