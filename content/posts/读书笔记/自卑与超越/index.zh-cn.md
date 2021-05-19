@@ -6,7 +6,7 @@ author: "ChrisLiu"
 description: "自卑与超越"
 
 tags: [思考]
-categories: [2021思考]
+categories: [读书笔记]
 
 resources:
 - name: "featured-image-preview"

@@ -4,11 +4,8 @@ date: 2021-03-21T12:40:25+08:00
 
 author: "ChrisLiu"
 
-page:
-    theme: "full"
-
 tags: [思考]
-categories: [2021思考]
+categories: [读书笔记]
 
 resources:
 - name: "featured-image"
