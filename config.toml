@@ -31,7 +31,7 @@ enableEmoji = true
     # language name
     languageName = "English"
     # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
+    hasCJKLanguage = true
     # default amount of posts in each pages
     paginate = 20
     # copyright description used only for seo schema
