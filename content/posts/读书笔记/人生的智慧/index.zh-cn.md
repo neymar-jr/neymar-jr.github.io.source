@@ -8,8 +8,6 @@ tags: [思考]
 categories: [读书笔记]
 
 resources:
-- name: "featured-image-preview"
-  src: "1.jpg"
 - name: "featured-image"
   src: "1.jpg"
 ---
