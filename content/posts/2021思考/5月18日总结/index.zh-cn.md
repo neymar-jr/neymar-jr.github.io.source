@@ -7,8 +7,6 @@ tags: [思考]
 categories: [2021思考]
 
 resources:
-- name: "featured-image-preview"
-  src: "2.jpg"
 - name: "featured-image"
   src: "2.jpg"
 ---
