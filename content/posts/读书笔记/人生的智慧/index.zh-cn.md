@@ -1,8 +1,17 @@
 ---
 title: "人生的智慧"
 date: 2021-03-21T11:14:25+08:00
+author: "ChrisLiu"
+description: "人生的智慧"
+
 tags: [思考]
 categories: [读书笔记]
+
+resources:
+- name: "featured-image-preview"
+  src: "1.jpg"
+- name: "featured-image"
+  src: "1.jpg"
 ---
 
 <!--more-->
