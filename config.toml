@@ -229,7 +229,7 @@ enableEmoji = true
         [languages.zh-cn.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          paginate = 10
       # Social config in home page
       [languages.zh-cn.params.social]
         GitHub = "neymar-jr"
@@ -323,7 +323,7 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          paginate = 10
       # Social config in home page
       [languages.en.params.social]
         GitHub = "neymar-jr"
