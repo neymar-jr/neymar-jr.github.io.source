@@ -1,11 +1,20 @@
 ---
 title: "INTJ划分"
 date: 2021-03-21T11:16:08+08:00
+
 tags: [心理学]
 categories: [心理学]
+
+resources:
+- name: "featured-image"
+  src: "21.jpg"
 ---
 
-低阶、中阶、高阶的INTJ分别是怎么样的？ - 沉香的回答 - 知乎 https://www.zhihu.com/question/394452710/answer/1732110212
+<!--more-->
+
+低阶、中阶、高阶的INTJ分别是怎么样的？ -
+
+沉香的回答 - 知乎 https://www.zhihu.com/question/394452710/answer/1732110212
 
 
 
