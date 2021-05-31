@@ -3,38 +3,21 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: true
-author: ""
+author: "ChrisLiu"
 description: ""
 
 page:
-    theme: "wide"
+    theme: "classic"
 
 upd: ""
 authorComment: ""
 
-tags: []
-categories: []
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
+tags: [思考]
+categories: [2021思考]
 
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
-- name: featured-image-preview
-  src: featured-image-preview.jpg
-
-featuredImage: ""
-featuredImagePreview: ""
-images: [""]
-
-toc:
-  enable: true
-math:
-  enable: false
-
-license: ""
 ---
 
 <!--more-->
