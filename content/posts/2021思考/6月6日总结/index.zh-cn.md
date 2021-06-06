@@ -17,7 +17,7 @@ categories: [2021思考]
 
 resources:
 - name: "featured-image"
-  src: "f27.jpg"
+  src: "27.jpg"
 ---
 
 <!--more-->
