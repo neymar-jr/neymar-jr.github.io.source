@@ -12,8 +12,8 @@ page:
 upd: ""
 authorComment: ""
 
-tags: [思考]
-categories: [2021思考]
+tags: [娱乐]
+categories: [娱乐]
 
 resources:
 - name: "featured-image"
